@@ -46,7 +46,7 @@ export default function AdminOrderScreen() {
               <Link href="/admin/dashboard">Dashboard</Link>
             </li>
             <li>
-               href="/admin/orders">
+              <Link href="/admin/orders">
                 <a className="font-bold">Orders</a>
               </Link>
             </li>
