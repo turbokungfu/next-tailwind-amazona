@@ -2,6 +2,7 @@ import axios from 'axios';
 import Link from 'next/link';
 import { Bar } from 'react-chartjs-2';
 
+
 import {
   Chart as ChartJS,
   CategoryScale,
