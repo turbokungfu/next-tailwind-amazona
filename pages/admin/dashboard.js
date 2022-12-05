@@ -2,11 +2,9 @@ import axios from 'axios';
 import Link from 'next/link';
 import { Bar } from 'react-chartjs-2';
 
-
 import {
   Chart as ChartJS,
   CategoryScale,
-  BarController,
   LinearScale,
   BarElement,
   Title,
@@ -19,7 +17,6 @@ import { getError } from '../../utils/error';
 
 ChartJS.register(
   CategoryScale,
-  BarController,
   LinearScale,
   BarElement,
   Title,
@@ -85,8 +82,8 @@ function AdminDashboardScreen() {
         <div>
           <ul>
             <li>
-              <Link href="/admin/dashboard" className="font-bold">
-                Dashboard
+              <Link href="/admin/dashboard">
+                <a className="font-bold">Dashboard</a>
               </Link>
             </li>
             <li>
