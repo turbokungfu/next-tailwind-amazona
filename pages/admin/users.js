@@ -117,11 +117,9 @@ function AdminUsersScreen() {
                       <td className=" p-5 ">              
                         <Link
                           href={`/admin/user/${user._id}`}
-                          passHref
-                          type="button"
-                          className="default-button">
+                          passHref>
                           
-                            <a>Edit</a>
+                            Edit
                           
                         </Link>
                         &nbsp;
