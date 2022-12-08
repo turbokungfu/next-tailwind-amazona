@@ -52,7 +52,7 @@ export default function Layout({ title, children }) {
                 </a>
               </Link>
               <div>
-              <span className="ml-1 rounded-full bg-red-600 px-2 py-1 text-xs font-bold text-white">
+              <span className="p-2">
                       {session.user.balance}
                     </span>
               </div>
