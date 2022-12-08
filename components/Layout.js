@@ -52,9 +52,9 @@ export default function Layout({ title, children }) {
                 </a>
               </Link>
               <div>
-              <span className="p-2">
-                      {session.user.balance}
-                    </span>
+              <Menu.Button className="text-blue-600">
+                    {session.user.name}
+                  </Menu.Button>
               </div>
 
               {status === 'loading' ? (
